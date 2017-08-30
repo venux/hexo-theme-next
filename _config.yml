@@ -191,7 +191,7 @@ post_wordcount:
   item_text: true
   wordcount: true
   min2read: true
-  totalcount: true
+  totalcount: false
   separated_meta: true
 
 # Wechat Subscriber
@@ -229,8 +229,8 @@ android_chrome_color: "#222"
 #   enabled: [true/false] - Replace with specific image
 #   image: url-of-image   - Images's url
 custom_logo:
-  enabled: false
-  image:
+  enabled: true
+  image: images/head.jpg
 
 # Code Highlight theme
 # Available value:
@@ -251,7 +251,7 @@ font:
   enable: true
 
   # Uri of fonts host. E.g. //fonts.googleapis.com (Default)
-  host:
+  host: fonts.lug.ustc.edu.cn
 
   # Global font settings used on <body> element.
   global:
@@ -424,17 +424,17 @@ vkontakte_api:
 # Star rating support to each article.
 # To get your ID visit https://widgetpack.com
 rating:
-  enable: false
-  id:     #<app_id>
+  enable: true
+  id:     6827
   color:  fc6423
 
 
 # Show number of visitors to each article.
 # You can visit https://leancloud.cn get AppID and AppKey.
 leancloud_visitors:
-  enable: false
-  app_id: #<app_id>
-  app_key: #<app_key>
+  enable: true
+  app_id: UDjFXGEpy6nb5tWHq55BEaoV-gzGzoHsz
+  app_key: qdpkXjO9HeADnrAdOAvRsuXi
 
 # Show PV/UV of the website/page with busuanzi.
 # Get more information on http://ibruce.info/2015/04/04/busuanzi/
@@ -463,7 +463,7 @@ busuanzi_count:
 
 
 # Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO
-baidu_push: false
+baidu_push: true
 
 # Google Calendar
 # Share your recent schedule to others via calendar page
@@ -495,12 +495,12 @@ algolia_search:
 # Local search
 # Dependencies: https://github.com/flashlab/hexo-generator-search
 local_search:
-  enable: false
+  enable: true
   # if auto, trigger search by changing input
   # if manual, trigger search by pressing enter key or search button
   trigger: auto
   # show top n results per article, show all results by setting to -1
-  top_n_per_article: 1
+  top_n_per_article: -1
 
 
 # ---------------------------------------------------------------
