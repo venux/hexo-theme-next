@@ -192,7 +192,7 @@ post_wordcount:
   wordcount: false
   min2read: false
   totalcount: false
-  separated_meta: true
+  separated_meta: false
 
 # Wechat Subscriber
 #wechat_subscriber:
@@ -354,9 +354,9 @@ valine:
 # This plugin is more useful in China, make sure you known how to use it.
 # And you can find the use guide at official webiste: http://www.jiathis.com/.
 # Warning: JiaThis does not support https.
-#jiathis:
-  ##uid: Get this uid from http://www.jiathis.com/
-#add_this_id:
+jiathis:
+  uid: 2142808 #Get this uid from http://www.jiathis.com/
+add_this_id: 2142808
 
 # Share
 #duoshuo_share: true
