@@ -52,6 +52,7 @@ index_with_subtitle: false
 menu:
   home: / || home
   archives: /archives/
+  books: /books/ || book
   categories: /categories/ || th
   tags: /tags/ || tags  
   #schedule: /schedule/ || calendar
@@ -62,7 +63,6 @@ menu:
 # Enable/Disable menu icons.
 menu_icons:
   enable: true
-
 
 # ---------------------------------------------------------------
 # Scheme Settings
@@ -113,6 +113,7 @@ links:
   张善友: http://www.cnblogs.com/shanyou/
   老A: http://www.cnblogs.com/artech/
   老赵: http://blog.zhaojie.me/
+  赛冷思: https://sailengsi.com/
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.jpg
 # in site  directory(source/uploads): /uploads/avatar.jpg
